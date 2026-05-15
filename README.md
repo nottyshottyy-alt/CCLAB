@@ -1,9 +1,9 @@
 # Lab 8 — Frontend Deployment with Vercel
 
 ## Student Information
-- **Name:** Abdul Rafay
-- **Enrollment:** 01-131232-005
-- **Lab:** 8 — Frontend Deployment with Vercel
+- **Name:** Muhammad Awais
+- **Enrollment:** 01-131232-051
+- **Lab:** 8  Frontend Deployment with Vercel
 - **University:** Bahria University
 - **Instructor:** Engr. Salman Zafar (SE Department)
 
