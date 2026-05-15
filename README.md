@@ -8,8 +8,7 @@
 - **Instructor:** Engr. Salman Zafar (SE Department)
 
 ## Vercel Production URL
-> *(Add your Vercel production URL here after deploying)*
-> `https://your-project.vercel.app`
+> **https://my-lab8-app.vercel.app**
 
 ## About This Project
 This is a Next.js application deployed on Vercel as part of Cloud Computing Lab 8. It demonstrates:

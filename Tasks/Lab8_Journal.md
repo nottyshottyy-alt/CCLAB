@@ -7,7 +7,7 @@
 **Instructor:** Engr. Salman Zafar  
 **University:** Bahria University — SE Department  
 **GitHub Repo:** https://github.com/rafeh216/Lab  
-**Vercel Production URL:** *(Add after deploying — see Task 3 steps below)*
+**Vercel Production URL:** https://my-lab8-app.vercel.app
 
 ---
 

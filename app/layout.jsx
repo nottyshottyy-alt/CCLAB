@@ -12,9 +12,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Lab 8 — Vercel Deployment | Abdul Rafay",
+  title: "Lab 8 — Vercel Deployment | Muhammad Awais",
   description:
-    "Cloud Computing Lab 8: Frontend Deployment with Vercel — Serverless Computing, Edge Functions & Auto-Scaling. By Abdul Rafay (01-131232-005), Bahria University.",
+    "Cloud Computing Lab 8: Frontend Deployment with Vercel — Serverless Computing, Edge Functions & Auto-Scaling. By Muhammad Awais (01-131232-051), Bahria University.",
 };
 
 export default function RootLayout({ children }) {

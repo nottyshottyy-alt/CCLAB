@@ -1,6 +1,6 @@
 export default function Home() {
   const appName = process.env.NEXT_PUBLIC_APP_NAME || "Lab8_App";
-  const studentName = process.env.NEXT_PUBLIC_STUDENT_NAME || "Abdul Rafay";
+  const studentName = process.env.NEXT_PUBLIC_STUDENT_NAME || "Muhammad Awais";
 
   return (
     <>
@@ -17,7 +17,7 @@ export default function Home() {
         <h1
           className="fade-in-up fade-in-up-delay-1 mt-8 text-5xl sm:text-6xl font-extrabold tracking-tight"
           style={{
-            background: "linear-gradient(135deg, #e8e8f0 0%, #6c63ff 50%, #38bdf8 100%)",
+            background: "linear-gradient(135deg, #f0fdf4 0%, #10b981 50%, #0ea5e9 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             lineHeight: 1.15,
@@ -36,9 +36,9 @@ export default function Home() {
           <div className="flex items-center justify-center gap-3 mb-6">
             <div
               className="w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold"
-              style={{ background: "linear-gradient(135deg, #6c63ff, #38bdf8)" }}
+              style={{ background: "linear-gradient(135deg, #10b981, #0ea5e9)" }}
             >
-              AR
+              MA
             </div>
             <div className="text-left">
               <h2 className="text-xl font-bold text-white">{studentName}</h2>
@@ -47,15 +47,15 @@ export default function Home() {
           </div>
 
           <div className="space-y-3">
-            <div className="flex justify-between items-center py-2 px-4 rounded-lg" style={{ background: "rgba(108,99,255,0.06)" }}>
+            <div className="flex justify-between items-center py-2 px-4 rounded-lg" style={{ background: "rgba(16,185,129,0.06)" }}>
               <span className="text-sm text-gray-400">Enrollment</span>
-              <span className="font-mono font-semibold text-[var(--accent-light)]">01-131232-005</span>
+              <span className="font-mono font-semibold text-[var(--accent-light)]">01-131232-051</span>
             </div>
-            <div className="flex justify-between items-center py-2 px-4 rounded-lg" style={{ background: "rgba(108,99,255,0.06)" }}>
+            <div className="flex justify-between items-center py-2 px-4 rounded-lg" style={{ background: "rgba(16,185,129,0.06)" }}>
               <span className="text-sm text-gray-400">App Name</span>
               <span className="font-mono font-semibold text-[var(--info)]">{appName}</span>
             </div>
-            <div className="flex justify-between items-center py-2 px-4 rounded-lg" style={{ background: "rgba(108,99,255,0.06)" }}>
+            <div className="flex justify-between items-center py-2 px-4 rounded-lg" style={{ background: "rgba(16,185,129,0.06)" }}>
               <span className="text-sm text-gray-400">Instructor</span>
               <span className="font-semibold text-white">Engr. Salman Zafar</span>
             </div>
@@ -107,7 +107,7 @@ export default function Home() {
                 <span className="text-lg">{lab.icon}</span>
                 <span className="text-sm text-gray-400 w-12">{lab.num}</span>
                 <span className="text-sm font-medium text-white">{lab.title}</span>
-                <span className="ml-auto text-xs text-green-400">✓</span>
+                <span className="ml-auto text-xs text-[var(--accent-light)]">✓</span>
               </div>
             ))}
           </div>
